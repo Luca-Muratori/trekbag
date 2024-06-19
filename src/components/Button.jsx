@@ -1,7 +1,13 @@
-import React from 'react'
+import React from "react";
 
-export default function Button({type, text}) {
+export default function Button({ onClick, buttonType, text }) {
   return (
-    <div className={`btn ${type === 'secondary' ? 'btn--secondary' : ''}`}>{text}</div>
-  )
+    <button
+    onClick={onClick}
+    type='submit'
+      className={`btn ${buttonType === "secondary" ? "btn--secondary" : ""}`}
+    >
+      {text}
+    </button>
+  );
 }

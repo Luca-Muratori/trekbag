@@ -3,10 +3,3 @@ export const initialItems = [
   { name: "socks", packed: false },
   { name: "yo mama", packed: false },
 ];
-
-export const texts = [
-  "Remove all items",
-  "Mark all as incomplete",
-  "Mark all as complete",
-  "Reset to initial",
-];
