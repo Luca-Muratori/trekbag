@@ -6,7 +6,7 @@ export default function ButtonGroup({handleRemoveAllItems, handleReset, handleMa
   return (
     <section className="button-group">
      <Button onClick={handleMarkAllAsComplete} buttonType='secondary' text={'Mark all as complete'}/>
-     <Button onClick={handleMarkAsIncomplete} buttonType='secondary' text={'Mark all as incomplet'}/>
+     <Button onClick={handleMarkAsIncomplete} buttonType='secondary' text={'Mark all as incomplete'}/>
      <Button onClick={handleReset} buttonType='secondary' text={'Reset to initial'}/>
      <Button onClick={handleRemoveAllItems} buttonType='secondary' text={'Remove all items'}/>
 

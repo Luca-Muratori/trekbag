@@ -1,5 +1,5 @@
 export const initialItems = [
-  { name: "passport", packed: true },
-  { name: "socks", packed: false },
-  { name: "yo mama", packed: false },
+  { id:1, name: "passport", packed: true },
+  { id:2, name: "socks", packed: false },
+  { id:3, name: "yo mama", packed: false },
 ];

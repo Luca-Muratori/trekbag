@@ -77,6 +77,10 @@ header {
   scrollbar-color: red orange;
   scrollbar-width: thin;
   position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto
 }
 
 .item-list::-webkit-scrollbar {
