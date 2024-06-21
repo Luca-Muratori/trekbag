@@ -1,7 +1,5 @@
-import React from 'react'
-
-export default function Counter() {
+export default function Counter({numberPackedItem ,totalItems}) {
   return (
-    <p> 1/3 items packed</p>
+    <p> {numberPackedItem}/{totalItems} items packed</p>
   )
 }
